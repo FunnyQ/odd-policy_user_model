@@ -4,7 +4,7 @@
  * @export
  * @class UserPolicyModelBase
  */
-export default class UserPolicyModelBase {
+export default class PolicyUserModelBase {
   /**
    * jwt payload MUST contain `sub` for user id, `role` for user role definition. Others can be optional.
    *
