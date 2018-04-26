@@ -13,6 +13,7 @@
     "type": "git",
     "url": "https://github.com/FunnyQ/odd-policy_user_model.git"
   },
+  "private": true,
   "keywords": ["policy"],
   "author": "FunnyQ",
   "license": "MIT",
