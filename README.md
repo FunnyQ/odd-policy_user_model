@@ -4,9 +4,9 @@
 
 ```js
 // policy_user_models/application_policy_user_model.js
-import PolicyUserModelBase from "odd-policy_user_model/lib/odd-policy_user_model";
+import PolicyUserModelBase from "odd-policy_user_model";
 
-class ApplicationPolicyUserModel extends UserModelBase {
+class ApplicationPolicyUserModel extends PolicyUserModelBase {
   constructor(jwtPayload) {
     super(jwtPayload);
   }
